@@ -1,11 +1,11 @@
 #include"main.h"
 
 /**
- * print_numbers - (0-9) except 2 & 4
+ * print_most_numbers - (0-9) except 2 & 4
  * return: void
 */
 
-void print_numbers(void)
+void print_most_numbers(void)
 {
 	char c;
 
