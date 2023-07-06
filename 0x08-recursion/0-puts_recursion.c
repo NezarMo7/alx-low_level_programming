@@ -1,8 +1,8 @@
-include "main.h'
+#include "main.h"
 
 /**
  * puts recursion - print a string, followed by a new line
- * 0 s: pointer to the string
+ * 0s: pointer to the string
  * return: void
 **/
 
