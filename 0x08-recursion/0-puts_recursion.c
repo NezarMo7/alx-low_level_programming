@@ -1,8 +1,12 @@
 #include "main.h"
 
 /**
- * puts recursion - print a string, followed by a new line
- * 0s: pointer to the string
+ * _puts_recursion - print a string, followed by a new line
+ *
+ * s:is string
+ *
+ * 0: pointer to the string
+ *
  * return: void
 **/
 
