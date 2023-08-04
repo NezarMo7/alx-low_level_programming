@@ -1,8 +1,9 @@
-#include "main.h" 
+#include "main.h"
 #include <stdio.h>
+#include <limits.h>
 
 /**
- * binary_to_uint - converts a binary number string to usninged int
+ * binary_to_uint - converts a binary number string to unsigned  int
  * @b: a binary
  *
  * Return: the unsigned int from of b
