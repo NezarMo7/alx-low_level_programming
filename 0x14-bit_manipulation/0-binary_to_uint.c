@@ -3,10 +3,10 @@
 
 /**
  * binary_to_uint - converts a binary number string to usninged int
- * @b: the binary number as a string
+ * @b: a binary
  *
  * Return: the unsigned int from of b
-**/
+*/
 
 unsigned int binnary_to_uint(const char *b)
 {
