@@ -1,4 +1,4 @@
-#include <lists.h>
+#include "lists.h"
 
 /**
  * add_dnodeint - add new head node to dlist
@@ -9,7 +9,7 @@
  *
  * Return: address of new node or NULL
  */
-dlistint_t *add_dnodeint(dlistint_t **head, const int n);
+dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
 	dlistint_t *new = malloc(sizeof(dlistint_t));
 
@@ -17,7 +17,7 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n);
 		return (new ? free(new), NULL : NULL);
 	}
 
-	new-> = n;
+	new->n = n;
 	new->prev = NULL;
 	if (!*head) {
 		*head = new;
