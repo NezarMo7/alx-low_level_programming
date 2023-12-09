@@ -5,7 +5,7 @@
  *
  * @head: pointer to current head node
  *
- * 
+ *
  * Return: NULL
  *
  */

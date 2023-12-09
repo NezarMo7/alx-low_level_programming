@@ -5,7 +5,7 @@
  *
  * @h: A pointer to the head of the dlist
  *
- * @idx: the index of new node 
+ * @idx: the index of new node
  *
  * @n: The int for new node
  *
