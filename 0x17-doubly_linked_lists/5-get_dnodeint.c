@@ -6,6 +6,8 @@
  * @head: pointer to current head node
  *
  *
+ * @index: given index that wanted to be Known
+ *
  * Return: NULL
  *
  */
